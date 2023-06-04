@@ -66,6 +66,6 @@ export const ContactForm =({onAddContact})=> {
 
 ContactForm.propTypes = {
   onAddContact: PropTypes.func.isRequired,
-  name: PropTypes.string.isRequired,
-  number: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  number: PropTypes.string,
 };
