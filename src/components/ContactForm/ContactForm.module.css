@@ -1,27 +1,19 @@
-.list {
+.form {
     display: flex;
     flex-direction: column;
+    gap: 12px;
+
     align-items: center;
-    list-style: none;
-    gap: 19px;
 }
 
-/* .button_delete {
-    padding: 10px;
-    border-radius: 20px;
-    text-transform: capitalize;
-    margin-left: 10px;
-    background-color: rgb(234, 164, 164);
-    transition: ease-out 0.3s;
+.input {
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: 1px rgb(88, 31, 87);
 }
 
-.button_delete:hover,
-.button_delete:focus {
-    background-color: rgb(246, 83, 83);
-    transition: ease-in 0.3s;
-} */
-
-.button_delete {
+.button_add {
     margin-right: 10px;
     font-family: inherit;
     border: none;
@@ -33,12 +25,8 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 5px 30px;
-    transition: background 250ms linear;
 }
-.button_delete:hover {
-    background: rgb(246, 83, 83);
-}
-.button_delete:active {
-    background: rgb(246, 83, 83);
+
+.button_add:active {
     box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
 }

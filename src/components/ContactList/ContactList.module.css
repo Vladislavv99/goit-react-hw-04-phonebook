@@ -1,18 +1,12 @@
-.form {
+.list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-
     align-items: center;
+    list-style: none;
+    gap: 19px;
 }
 
-.input {
-    padding: 15px;
-    border-radius: 10px;
-    border-color: 1px rgb(88, 31, 87);
-}
-
-.button_add {
+.button_delete {
     margin-right: 10px;
     font-family: inherit;
     border: none;
@@ -24,8 +18,12 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 5px 30px;
+    transition: background 250ms linear;
 }
-
-.button_add:active {
+.button_delete:hover {
+    background: rgb(246, 83, 83);
+}
+.button_delete:active {
+    background: rgb(246, 83, 83);
     box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
 }
