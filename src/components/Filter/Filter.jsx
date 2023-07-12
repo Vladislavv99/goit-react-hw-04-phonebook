@@ -8,7 +8,7 @@ export function Filter({ value, onChangeFilter }) {
         <input className={s.input_search}
           type="text"
           value={value}
-          onChange={(e) => onChangeFilter(e.target.value)}
+          onChange={onChangeFilter}
         />
       </div>
     );
